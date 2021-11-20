@@ -1,0 +1,15 @@
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-contianer{
+    display: table;
+}
+
+.box-contianer .box{
+    display: table-cell;
+    border: 1px double lightgray;
+    width: 33.33%;
+}
